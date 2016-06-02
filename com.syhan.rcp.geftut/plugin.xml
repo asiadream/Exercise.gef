@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="com.syhan.rcp.geftut.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="RCP Perspective"
+            class="com.syhan.rcp.geftut.Perspective"
+            id="com.syhan.rcp.geftut.perspective">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="com.syhan.rcp.geftut.editor.MyGraphicalEditor"
+            default="false"
+            id="com.syhan.rcp.geftut.editor.MyGraphicalEditor"
+            name="MyGraphicalEditor">
+      </editor>
+   </extension>
+
+</plugin>

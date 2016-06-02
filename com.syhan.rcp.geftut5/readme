@@ -1,0 +1,8 @@
+Part 8: Context menu
+Part 9: Creating a custom action
+  - Wizard creation
+  - Command creation
+  - Action creation
+  - EditPolicy creation
+  - Associate the new EditPolicy with the EditParts
+  - Property activation to update views
